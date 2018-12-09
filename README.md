@@ -2,7 +2,9 @@
 __CRUD operation demo using spring__
 
 1. Download **_MariaDB_** (Same as MySQL but open source)
+
     1.1 Start it by  `bin\mysqld --console`
+
     1.2 Create a db
     + Go to bin folder in another command prompt
     + `mysql -u root -p`
