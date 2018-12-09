@@ -44,10 +44,15 @@ __CRUD operation demo using spring__
 ![IMG](https://github.com/kumudug/JavaSpring_CRUD_LoyaltyProgram/blob/master/Postman_Get.png)
 
     4.2 Post
+    
 ![IMG](https://github.com/kumudug/JavaSpring_CRUD_LoyaltyProgram/blob/master/Postman_Post.png)
+
     4.3 Put
+    
 ![IMG](https://github.com/kumudug/JavaSpring_CRUD_LoyaltyProgram/blob/master/Postman_Put.png)
+
     4.4 Delete
+    
 ![IMG](https://github.com/kumudug/JavaSpring_CRUD_LoyaltyProgram/blob/master/Postman_Delete.png)
     
     
