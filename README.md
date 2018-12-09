@@ -40,7 +40,6 @@ __CRUD operation demo using spring__
     
 4. After creating the rest application you can test it using postman
     4.1 Get
-![IMG](https://github.com/kumudug/JavaSpring_CRUD_LoyaltyProgram/blob/master/Postman_Get.png)
 
 <img src="https://github.com/kumudug/JavaSpring_CRUD_LoyaltyProgram/blob/master/Postman_Get.png" height="100" title="Github Logo">
 
