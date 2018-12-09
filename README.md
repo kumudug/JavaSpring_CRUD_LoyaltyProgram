@@ -15,4 +15,8 @@ __CRUD operation demo using spring__
     + Create a project with __Web__, __JPA__ [Java presistance api], __MySQL__ as dependencies
     ![IMG](https://github.com/kumudug/JavaSpring_CRUD_LoyaltyProgram/blob/master/SpringInitFriends.png)
 
-    1.4 aaa
+    1.4 Open the project in Intelij by selecting
+    + Import project
+    + Choose the .gradle build file
+    
+    1.5
