@@ -12,19 +12,19 @@ __CRUD operation demo using spring__
     + Once connected use the below command to create the db
     + `create database friends;`
     
-    1.3 Create template project using spring initializer
+2. Create template project using spring initializer
     + Go to [https://start.spring.io/](https://start.spring.io/)  
     + Create a project with __Web__, __JPA__ [Java presistance api], __MySQL__ as dependencies
     ![IMG](https://github.com/kumudug/JavaSpring_CRUD_LoyaltyProgram/blob/master/SpringInitFriends.png)
 
-    1.4 Open the project in Intelij by selecting
+    2.1 Open the project in Intelij by selecting
     + Import project
     + Choose the .gradle build file
     
-    1.5 Run the application
+    2.2 Run the application
     + You can run the application using `./gradlew bootRun` or `gradlew bootRun` in windows
     
-    1.6 After you run it for the first time hibrenate is going to create the tables. To see this
+3. After you run it for the first time hibrenate is going to create the tables. To see this
     + Start the MariaDB server if you haven't already done so `bin\mysqld --console`
     + Connect to MariaDB `mysql -u root -p` [Just enter for password. MariaDB doesn't have passwords]
     + `use friends`
@@ -35,5 +35,17 @@ __CRUD operation demo using spring__
 
     + To see table details `describe friend;`
     
-    1.7 Insert a few records
+    3.1 Insert a few records
     + `insert into friend values(null, 'FName2', 'LName2');`
+    
+4. After creating the rest application you can test it using postman
+    4.1 Get
+![IMG](https://github.com/kumudug/JavaSpring_CRUD_LoyaltyProgram/blob/master/Postman_Get.png)
+    4.2 Post
+![IMG](https://github.com/kumudug/JavaSpring_CRUD_LoyaltyProgram/blob/master/Postman_Post.png)
+    4.3 Put
+![IMG](https://github.com/kumudug/JavaSpring_CRUD_LoyaltyProgram/blob/master/Postman_Put.png)
+    4.4 Delete
+![IMG](https://github.com/kumudug/JavaSpring_CRUD_LoyaltyProgram/blob/master/Postman_Delete.png)
+    
+    
