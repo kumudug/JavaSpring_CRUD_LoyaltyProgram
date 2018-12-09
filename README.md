@@ -30,4 +30,5 @@ __CRUD operation demo using spring__
     + `use friends`
     + `show tables;`
     + You shoud see somethng like below
+    
     ![IMG](https://github.com/kumudug/JavaSpring_CRUD_LoyaltyProgram/blob/master/MariaDBOutput1.png)
