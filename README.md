@@ -39,6 +39,7 @@ __CRUD operation demo using spring__
     + `insert into friend values(null, 'FName2', 'LName2');`
     
 4. After creating the rest application you can test it using postman
+
     4.1 Get
 
 ![IMG](https://github.com/kumudug/JavaSpring_CRUD_LoyaltyProgram/blob/master/Postman_Get.png)
