@@ -19,4 +19,5 @@ __CRUD operation demo using spring__
     + Import project
     + Choose the .gradle build file
     
-    1.5
+    1.5 Run the application
+    + You can run the application using `./gradlew bootRun` or `gradlew bootRun` in windows
