@@ -23,3 +23,11 @@ __CRUD operation demo using spring__
     
     1.5 Run the application
     + You can run the application using `./gradlew bootRun` or `gradlew bootRun` in windows
+    
+    1.6 After you run it for the first time hibrenate is going to create the tables. To see this
+    + Start the MariaDB server if you haven't already done so `bin\mysqld --console`
+    + Connect to MariaDB `mysql -u root -p` [Just enter for password. MariaDB doesn't have passwords]
+    + `use friends`
+    + `show tables;`
+    + You shoud see somethng like below
+    ![IMG](https://github.com/kumudug/JavaSpring_CRUD_LoyaltyProgram/blob/master/MariaDBOutput1.png)
