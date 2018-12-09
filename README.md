@@ -34,3 +34,6 @@ __CRUD operation demo using spring__
     ![IMG](https://github.com/kumudug/JavaSpring_CRUD_LoyaltyProgram/blob/master/MariaDBOutput1.png)
 
     + To see table details `describe friend;`
+    
+    1.7 Insert a few records
+    + `insert into friend values(null, 'FName2', 'LName2');`
