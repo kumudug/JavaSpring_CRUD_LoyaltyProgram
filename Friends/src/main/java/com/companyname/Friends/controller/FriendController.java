@@ -5,6 +5,8 @@ import com.companyname.Friends.service.FriendService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Optional;
+
 @RestController
 public class FriendController {
 
@@ -29,5 +31,17 @@ public class FriendController {
     @DeleteMapping("/friend/{id}")
     void delete(@PathVariable Integer id) {
         friendService.deleteById(id);
+    }
+
+    @GetMapping("/friend/{id}")
+    Optional<Friend> findById(@PathVariable Integer id) {
+        return friendService.findById(id);
+    }
+
+    @GetMapping("/friend/search")
+    Iterable<Friend> findByQuery(
+            @RequestParam("first") String firstName,
+            @RequestParam("last") String lastName) {
+        return friendService.findByFirstNameAndLastName(firstName, lastName);
     }
 }
