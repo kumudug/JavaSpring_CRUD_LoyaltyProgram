@@ -56,4 +56,13 @@ __CRUD operation demo using spring__
 
     ![IMG](https://github.com/kumudug/JavaSpring_CRUD_LoyaltyProgram/blob/master/Postman_Delete.png)
     
+    4.5 Get by id
+    
+    ![IMG](https://github.com/kumudug/JavaSpring_CRUD_LoyaltyProgram/blob/master/Postman_Get_Id.png)
+    
+    4.6 Search
+    
+    ![IMG](https://github.com/kumudug/JavaSpring_CRUD_LoyaltyProgram/blob/master/Postman_Search.png)
+    
+    
     
