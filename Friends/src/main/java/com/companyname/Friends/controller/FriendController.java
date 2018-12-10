@@ -40,8 +40,16 @@ public class FriendController {
 
     @GetMapping("/friend/search")
     Iterable<Friend> findByQuery(
-            @RequestParam("first") String firstName,
-            @RequestParam("last") String lastName) {
-        return friendService.findByFirstNameAndLastName(firstName, lastName);
+            @RequestParam(value = "first", required = false) String firstName,
+            @RequestParam(value = "last", required = false) String lastName) {
+        if (firstName != null && lastName != null) {
+            return friendService.findByFirstNameAndLastName(firstName, lastName);
+        } else if (firstName != null) {
+            return friendService.findByFirstName(firstName);
+        } else if (lastName != null) {
+            return friendService.findByLastName(lastName);
+        } else {
+            return friendService.findAll();
+        }
     }
 }
