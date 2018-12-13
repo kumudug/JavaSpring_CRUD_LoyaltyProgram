@@ -2,6 +2,7 @@ package com.companyname.Friends.controller;
 
 import com.companyname.Friends.model.Friend;
 import com.companyname.Friends.service.FriendService;
+import com.companyname.Friends.util.ErrorMessage;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -25,9 +26,10 @@ public class FriendController {
         }
     }
 
+    @ResponseStatus(HttpStatus.BAD_REQUEST)
     @ExceptionHandler(ValidationException.class)
-    ResponseEntity<String> exceptionHandler(ValidationException e) {
-        return new ResponseEntity(e.getMessage(), HttpStatus.BAD_REQUEST);
+    ErrorMessage exceptionHandler(ValidationException e) {
+        return new ErrorMessage("400", e.getMessage());
     }
 
     @GetMapping("/friend")
